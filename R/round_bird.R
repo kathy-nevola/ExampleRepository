@@ -13,5 +13,7 @@ round_bird <- function(df) {
   names(df) <- c("Name", "Shape")
   rb <- df %>% filter(Shape == "round")
   round <- rb$Name
-  return(round)
+  ifelse(length(round) == 0,
+         return(message("There are no round birds in your dataframe.")),
+         return(round))
 }
