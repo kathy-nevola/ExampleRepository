@@ -12,8 +12,8 @@
 ## Checklist
 - [ ] Make sure you are requesting to **pull a feature/bugfix branch** (right side). This should not be main.
 - [ ] Make sure you are make a pull request against either **main or develop** (left side). 
-- [ ] Check that the commit messages are informative and give context, while being concise.
-- [ ] Check code style using lintr and styler
+- [ ] Add or update unit tests (if applicable)
+- [ ] Check code style using lintr and styler (optional)
 - [ ] Check your code with any unit tests (if available)
 - [ ] Add neccessary documentation (if applicable)
 
