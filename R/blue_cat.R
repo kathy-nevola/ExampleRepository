@@ -11,5 +11,5 @@ blue_cat <- function(df){
   names(df) <- c("Name", "Color")
   bc <- df %>% filter(Color == "blue")
   blue <- bc$Name
-  return(red)
+  return(blue)
 }
